@@ -39,7 +39,7 @@ function Hero() {
     </div>
     <div className="hero-art">
       <div className="sun-sticker">SLOW<br/>SUNDAY<br/><Heart size={18} fill="currentColor"/></div>
-      <div className="image-frame"><img src="/sunday-still-life.png" alt="Retro illustration of colorful books, a reading lamp, flower and teacup" /></div>
+      <div className="image-frame"><img src={`${import.meta.env.BASE_URL}sunday-still-life.png`} alt="Retro illustration of colorful books, a reading lamp, flower and teacup" /></div>
       <Flower className="hero-flower" />
       <span className="sparkle sparkle-one">✦</span><span className="sparkle sparkle-two">✦</span>
     </div>
